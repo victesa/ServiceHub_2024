@@ -55,7 +55,7 @@ function HomeScreenHeader() {
         display: "flex",
         justifyContent: "space-between",
         alignItems: "center",
-        border: "1px solid gray"
+        borderBottom: "1px solid gray"
       }}
     >
       <div id="leftHeaderDiv" style={rightHeader}>

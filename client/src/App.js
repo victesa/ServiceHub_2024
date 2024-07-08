@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import SignUpScreen from './common/screens/SignUpScreen';
+import SignUpScreen from './common/screens/SignUpScreen.jsx';
 import SignInScreen from './common/screens/SignInScreen';
 import HomeScreen from './common/screens/HomeScreen';
 import ResetPasswordScreen from './common/screens/ResetPasswordScreen';
@@ -8,11 +8,12 @@ import PasswordResetScreen from './common/screens/PasswordResetScreen';
 import VerifyEmailScreen from './common/screens/VerifyEmailScreen';
 import RoleOptionScreen from './common/screens/RoleOptionScreen';
 import EmailVerificationLinkScreen from './common/screens/EmailVerificationLinkScreen';
-import ProtectedRoute from './common/components/AuthProtection'; // Correct the import path
+import ProtectedRoute from './common/components/AuthProtection.jsx'; // Correct the import path
 import RedirectIfAuthenticated from './common/components/RedirectedIfAuthenticated'; // New component
 import ProfileSetUpScreen from './ServiceProvider/screens/ProfileSetupScreen';
 import ServiceProviderHomeScreen from './ServiceProvider/screens/ServiceProviderHomeScreen';
 import ClientHomeScreen from './common/screens/ClientHomeScreen';
+
 
 function App() {
   return (

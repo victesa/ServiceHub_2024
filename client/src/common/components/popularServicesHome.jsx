@@ -4,7 +4,7 @@ import imageFour from "../../images/heroPic_4.png"
 import imageFive from "../../images/heroPic_5.png"
 import imageSix from "../../images/heroPic_6.png"
 import imageSeven from "../../images/heroPic_7.png"
-import ServiceCard from "../../ServiceProvider/components/serviceCard";
+import ServiceCard from "../../ServiceProvider/components/ServiceCard2";
 
 const services = [
     {name: "Transport", image: "http://localhost:5000/images/9feb761c-dc27-45a5-a555-1836f3b7e3a3.png"},
